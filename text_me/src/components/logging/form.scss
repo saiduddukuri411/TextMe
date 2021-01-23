@@ -1,0 +1,49 @@
+@import "../../globalColors.scss";
+.formContainer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  background: #fff;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.inputHolder {
+  width: 90%;
+  margin-top: 20px;
+  display: flex;
+  height: 50px;
+  background: $inputBg;
+  box-shadow: $formShaddow;
+}
+.IconHolder {
+  width: 15%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // border: 1px solid black;
+}
+
+.inputIcon {
+   font-size: 30px;
+   color: gray;
+}
+.inputBox {
+  width: 85%;
+  border-radius: 6px;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding-left: 15px;
+  font-family: $jura;
+  font-size: 17px;
+  letter-spacing: 0.09rem;
+  font-weight: bold;
+  color: $purple;
+  &:hover {
+    outline: none;
+    border: none;
+  }
+}
